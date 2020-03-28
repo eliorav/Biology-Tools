@@ -6,10 +6,24 @@
   </p>
 </p>
 
-## Getting Started
+# Getting Started
 
-### Usage example
-#### clone the repo
+## Usage example
+### pull from docker
+```sh
+docker pull avelior/plink2
+```
+#### run plink command
+```sh
+docker run --rm -it -v {YOUR_FOLDER}://usr/src/app/share_folder avelior/plink2 {PLINK_COMMAND}
+```
+note that the container needs a volume to the share_folder inside the workdir in order to get files and write back.
+##### Example
+```sh
+docker run --rm -it -v ./://usr/src/app/share_folder avelior/plink2 bash -c "./plink2 --zst-decompress share_folder/all_phase3.pgen.zst > share_folder/all_phase3.pgen"
+```
+
+### clone the repo
 ```sh
 git clone https://github.com/eliorav/plink.git
 ```
