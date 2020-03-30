@@ -2,7 +2,7 @@
   <h3 align="center">Plink2</h3>
 
   <p align="center">
-    A Docker wrapper for plink2.
+    A Docker wrapper for <a href="https://www.cog-genomics.org/plink/2.0/">plink2</a>.
   </p>
 </p>
 
