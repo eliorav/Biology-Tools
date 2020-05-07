@@ -14,6 +14,6 @@ Table of contents
    * [VCFtools](https://github.com/eliorav/Biology-Tools/tree/master/VCFtools)
    * [hg38db](https://github.com/eliorav/Biology-Tools/tree/master/hg38db)
    * [SAMtools](https://github.com/eliorav/Biology-Tools/tree/master/SAMtools)
-   * [Iadmix](https://github.com/eliorav/ancestry)
+   * [iAdmix](https://github.com/eliorav/ancestry)
 <!--te-->
 
